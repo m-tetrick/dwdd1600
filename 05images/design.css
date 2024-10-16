@@ -1,0 +1,164 @@
+body {
+    font-family: "source-sans-pro", sans-serif;
+    font-weight: 100;
+    font-style: normal;   
+    margin: 0;
+    font-size: 16px;
+
+ 
+}
+
+/*Header stuff here*/
+
+header h1{
+    font-family: "new-spirit", serif;
+    font-weight: 700;
+    font-style: normal;
+font-size: 50px;
+margin: 0;
+color: #3d5939;
+}
+header {
+    background-color: #ffffff;
+    padding: 1rem 2vw; 
+}
+header p{
+    margin: 0;
+    color: #452200;
+    letter-spacing: .5px;
+    
+    }
+
+/*Nagivation stuff here*/
+nav {
+    background-color: #f5eddf;
+}
+
+nav ul { 
+    list-style-type: none;
+    padding: 0 2vw;
+    margin: 0;
+    display: flex; 
+}
+nav a {
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #452200;
+    font-weight: 700;
+    display: block;
+    padding: .83rem 2rem;
+}
+nav li.active a {
+    background-color: #c6bda2;
+    color: #452200;
+}
+nav a:hover { 
+    color: #c6bda2;
+
+}
+
+/*Main stuff here*/
+
+main h1{
+    font-family: "new-spirit", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+    margin: 0;
+    color: #c2748e;
+    margin: 1rem;
+}
+main h2{
+    font-family: "new-spirit", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 25px;
+    margin-bottom: .2rem;
+    color: #3d5939;
+}
+main{
+    padding: 1rem 2vw;
+    background-color: #ffff;
+}
+main p {
+    color: #452200;
+    margin: 0 0 .3rem 0;
+    }
+    main ol {
+        padding: .5rem 3vw;
+        background-color: #f5eddf;
+    }
+    main dl dt {
+        color: #c2748e;
+        font-weight: 700;
+    }
+    main dl dd {
+        color: #452200;
+        font-size: .9rem;
+    }
+    main ul {
+        list-style-type:square;
+    }
+    main ul li {
+        line-height: 125%;
+        margin-bottom:.5rem;
+        font-size: .9rem;
+        color: #452200;
+    }
+    main address{
+        font-style:normal;
+        background-color: #f5eddf;
+        color: #452200;
+        padding: .5rem;
+        width: 7.5rem;
+        border-style:dotted;
+        border-color: #3d5939;
+        border-radius: 15rem;
+}
+main a {
+    color:#452200;
+}    
+main a:hover {
+    color: #c2748e;
+    }
+    figure.wrapped {
+        width: 30%;
+        margin: 0 0 0 2%;
+        float: right;
+        }
+        figure.wrapped img {
+            width: 100%;
+            height: auto;
+        }
+        figure.wrapped figcaption {
+            text-align: center;
+            font-size: 1rem;
+            color: #452200;
+        }
+
+        div.gallery{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        div.gallery figure {
+            margin: .5rem 2% 0 0; 
+        }
+        div.gallery figcaption {
+            text-align: center;
+            font-size: 1rem;
+            color: #3d5939;
+        }
+/*Footer stuff here*/
+footer {
+    background-color: #f5eddf;
+    text-align: center;
+    color: #452200;
+    padding: 1rem 0vw;
+    font-size: .8rem;
+}
+footer a{
+    color:#452200;
+}
+footer a:hover {
+    color: #c2748e
+    }
